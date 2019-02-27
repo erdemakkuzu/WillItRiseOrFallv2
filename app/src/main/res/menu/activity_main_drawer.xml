@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homePage"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="HomePage" />
+        <item
+            android:id="@+id/predicts"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Predict now!" />
+        <item
+            android:id="@+id/predictionHistory"
+            android:title="Prediction History"
+            android:icon="@drawable/ic_menu_gallery"
+            />
+        <item
+            android:id="@+id/Rankings"
+            android:title="Rankings For Scores"
+            android:icon="@drawable/ic_menu_gallery"
+            />
+        <item
+            android:id="@+id/rankingsAccuracy"
+            android:title="Rankings For Accuracy"
+            android:icon="@drawable/ic_menu_gallery"
+            />
+
+
+        <item
+            android:id="@+id/exchangeRates"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Exchange Rates" />
+        <item
+            android:id="@+id/SearchUser"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="SearchUser" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Log-Out" />
+
+
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

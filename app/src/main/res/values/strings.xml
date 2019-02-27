@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Will It Rise Or Fall v2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="insturmentsArray">
+
+        <item>Please Select an Item</item>
+        <item>Dollar</item>
+        <item>Euro</item>
+        <item>Gold</item>
+        <item>İmkb</item>
+    </string-array>
+
+</resources>

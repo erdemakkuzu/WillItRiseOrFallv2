@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#34495E"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:textColor="#00ff0c"
+            android:textSize="20dp"
+            android:id="@+id/textView2"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:background="#2ECC71"
+            android:hint=" Username"
+            android:textColor="#F5F5F5"
+            android:textColorHint="#F5F5F5"
+            android:layout_marginTop="20dp"
+            android:id="@+id/userName"
+
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_gravity="center_horizontal"
+            android:background="#2ECC71"
+            android:textColor="#F5F5F5"
+            android:textColorHint="#F5F5F5"
+            android:id="@+id/password"
+            android:hint="Password" />
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_gravity="center_horizontal"
+            android:background="#2ECC71"
+            android:textColor="#F5F5F5"
+            android:textColorHint="#F5F5F5"
+            android:hint="Password Again"
+            android:id="@+id/passwordAgain"
+            />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:background="#2ECC71"
+            android:hint=" E- Mail"
+            android:textColor="#F5F5F5"
+            android:textColorHint="#F5F5F5"
+            android:layout_marginTop="20dp"
+            android:id="@+id/eMail"
+
+            android:layout_gravity="center_horizontal"  />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="I accept the terms of use"
+            android:id="@+id/checkBox"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#00ff0c"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="#3498DB"
+            android:textColor="#2ECC71"
+            android:textSize="16dp"
+            android:onClick="registerUser"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:id="@+id/textView3" />
+
+
+    </LinearLayout>
+</RelativeLayout>

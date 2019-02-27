@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34495E"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exchange Rates "
+        android:textSize="40dp"
+        android:textAlignment="center"
+
+        android:layout_marginTop="30dp"
+        android:textColor="#FF5722" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dollar :"
+        android:id="@+id/dollarTv"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#EEFF41" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Euro:"
+        android:id="@+id/euroTv"
+        android:textSize="40dp"
+
+        android:layout_marginTop="30dp"
+        android:textColor="#EEFF41" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pound:"
+        android:id="@+id/poundTv"
+        android:textSize="40dp"
+
+        android:layout_marginTop="30dp"
+        android:textColor="#EEFF41" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İMKB:"
+        android:id="@+id/imkbTv"
+        android:textSize="40dp"
+
+        android:layout_marginTop="30dp"
+        android:textColor="#EEFF41" />
+
+
+
+
+</LinearLayout>
